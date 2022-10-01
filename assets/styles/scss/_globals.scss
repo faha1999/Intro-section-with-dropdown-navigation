@@ -3,3 +3,78 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Epilogue', sans-serif;
+  color: $medium-gray;
+  background-color: $off-white;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: $medium-gray;
+}
+
+a:hover {
+  color: $black;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: $black;
+  line-height: normal;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+// buttons
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border-radius: 15px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.btn-outline {
+  border: 2px solid $medium-gray;
+  &:hover {
+    border-color: $black;
+    color: $black;
+  }
+}
+
+.btn-dark {
+  background-color: $black;
+  color: $off-white;
+  font-weight: bold;
+
+  &:hover {
+    border: 2px solid $black;
+    color: $black;
+    background: none;
+  }
+}
