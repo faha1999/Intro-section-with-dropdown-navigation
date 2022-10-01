@@ -27,16 +27,13 @@ ul {
   list-style: none;
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1 {
   color: $black;
   line-height: normal;
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 90rem;
   margin: 0 auto;
 }
 
@@ -52,15 +49,15 @@ h4 {
 .btn {
   display: inline-block;
   padding: 0.8rem 1.5rem;
-  border-radius: 15px;
-  border: 2px solid transparent;
+  border-radius: 0.9375rem;
+  border: 0.125rem solid transparent;
   cursor: pointer;
   font-size: inherit;
   font-family: inherit;
 }
 
 .btn-outline {
-  border: 2px solid $medium-gray;
+  border: 0.125rem solid $medium-gray;
   &:hover {
     border-color: $black;
     color: $black;
@@ -73,7 +70,7 @@ h4 {
   font-weight: bold;
 
   &:hover {
-    border: 2px solid $black;
+    border: 0.125rem solid $black;
     color: $black;
     background: none;
   }

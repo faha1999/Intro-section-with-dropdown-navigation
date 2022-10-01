@@ -1,5 +1,5 @@
 #navbar {
-  height: 80px;
+  height: 5rem;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -7,7 +7,7 @@
   padding: 0 1rem;
 
   .logo {
-    max-width: 100px;
+    max-width: 6.25rem;
     margin-top: 0.5rem;
   }
 
@@ -57,15 +57,15 @@
 
         .dropdown-menu {
           position: absolute;
-          right: 0px;
+          right: 0rem;
           top: calc(100% + 1rem);
           background-color: white;
           padding: 1.2rem;
-          border-radius: 10px;
-          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          border-radius: 0.625rem;
+          box-shadow: rgba(100, 100, 111, 0.2) 0rem 0.4375rem 1.8125rem 0rem;
           opacity: 0;
           pointer-events: none;
-          transform: translateY(-10px);
+          transform: translateY(-0.625rem);
           transition: opacity 150ms ease-in-out 0s,
             transform 150ms ease-in-out 0s;
 
@@ -79,7 +79,7 @@
             }
 
             .link {
-              font-size: 14px;
+              font-size: 0.875rem;
               margin-bottom: 0.7rem;
               display: flex;
               align-items: center;
@@ -87,7 +87,7 @@
               width: max-content;
 
               img {
-                width: 15px;
+                width: 0.9375rem;
               }
             }
           }
@@ -112,7 +112,7 @@
   }
 
   p {
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 1.5;
     margin-bottom: 3rem;
     max-width: 70%;
@@ -125,7 +125,7 @@
     margin-top: 5.5rem;
 
     img {
-      width: 90px;
+      width: 5.625rem;
     }
   }
 
@@ -135,7 +135,7 @@
     background-size: contain;
     background-position: right;
     width: 100%;
-    min-height: 580px;
+    min-height: 36.25rem;
     margin: 0 auto;
   }
 }
@@ -193,7 +193,7 @@ footer {
     position: relative;
     padding: 0 1rem;
     justify-content: space-between;
-    height: 70px;
+    height: 4.375rem;
 
     .logo {
       margin: 0;
@@ -206,8 +206,8 @@ footer {
       display: block;
       border: none;
       align-self: center;
-      width: 30px;
-      height: 30px;
+      width: 1.875rem;
+      height: 1.875rem;
       background: url('../../images/icon-menu.svg');
       background-size: contain;
       background-repeat: no-repeat;
@@ -269,7 +269,7 @@ footer {
             transition: none;
 
             .link {
-              font-size: 16px;
+              font-size: 1rem;
             }
           }
         }
@@ -302,7 +302,7 @@ footer {
 
     .hero-image {
       background-image: url('../../images/image-hero-mobile.png');
-      min-height: 320px;
+      min-height: 20rem;
       order: -1;
       background-size: 100%;
       background-position: center;
@@ -334,7 +334,7 @@ footer {
       margin-top: 2rem;
 
       img {
-        width: 64px;
+        width: 4rem;
       }
     }
   }
